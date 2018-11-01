@@ -1,0 +1,370 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	display: block;
+	width:1080px;
+	
+	margin: 0 auto;
+}
+.header{
+	display: block;
+	width: 300px;
+	font-family: 'Roboto Slab', serif;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	padding: 30px 30px 30px 30px;
+	float: left;
+}
+
+.header li img{
+	margin-bottom: 30px;
+}
+
+.header li{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2em;
+	color: #000;
+}
+.header a{
+	text-decoration: none;
+	color: #000;
+}
+.header a:hover{
+	opacity: 0.7;
+	border-left: 3px solid #000;
+	padding-left: 5px;
+	
+}
+.LOGO_S img{
+	display: none;
+	width: 50%;
+	position: absolute;
+	margin-top: 20px;
+}
+
+/*漢堡條*/
+.MENUSHOW{
+	display: none;
+}
+.MENUSHOW ul{
+	padding-top: 40px;
+	margin-right: 42px;
+	float: right;
+}
+
+.MENUSHOW li{
+	display: inline-block;
+	padding-left: 60px;
+}
+
+
+.MENUSHOW{
+	
+}
+
+.MENUSHOW a{
+	color: #3F5D45;
+	font-size: 16px;
+}
+
+.showmenu{
+ display: none;
+}
+
+/*漢堡條*/
+#BOX1{
+	display: block;
+	width: 780px;
+	padding-top: 30px;
+	margin-left: 300px;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 30px;
+}
+#BOX1 ul{
+	display: block;
+	width: 780px;
+	margin-left: 80px;
+
+}
+#BOX1 h1{
+	display: block;
+	width: 200px;
+	text-align: left;
+	border-bottom: 2px solid #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 2em;
+	font-family: 'Roboto Slab', serif;
+}
+#BOX1 li{
+	display: block;
+	width: 600px;
+	margin-bottom: 20px;
+}
+
+#BOX1 a:hover{
+	opacity: 0.7;
+}
+
+#BOX2{
+	display: block;
+	width: 780px;
+	padding-top: 30px;
+	margin-left: 300px;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 30px;
+}
+#BOX2 ul{
+	display: block;
+	width: 780px;
+	margin-left: 80px;
+
+}
+#BOX2 h1{
+	display: block;
+	width: 200px;
+	text-align: left;
+	border-bottom: 2px solid #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 2em;
+	font-family: 'Roboto Slab', serif;
+}
+#BOX2 li{
+	display: inline-block;
+	width: 290px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+#BOX2 a:hover{
+	opacity: 0.7;
+}
+@media only screen and (max-width: 768px){ 
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	display: block;
+	width:100%;
+	
+	margin: 0 auto;
+}
+.header{
+	display: none;
+	width: 300px;
+	font-family: 'Roboto Slab', serif;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	padding: 30px 30px 30px 30px;
+	float: left;
+}
+
+.header li img{
+	margin-bottom: 30px;
+}
+
+.header li{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2em;
+	color: #000;
+}
+.header a{
+	text-decoration: none;
+	color: #000;
+}
+.header a:hover{
+	opacity: 0.7;
+	border-left: 3px solid #000;
+	padding-left: 5px;
+	
+}
+.LOGO_S img{
+	display: block;
+	width: 50%;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 80px;
+	position: fixed;
+
+}
+/*漢堡條*/
+.MENUSHOW{
+	display: block;
+
+}
+.MENUSHOW ul{
+	padding-top: 30px;
+	margin-right: 0px;
+	float: none;
+}
+
+.MENUSHOW li{
+	display: block;
+	padding-left: 0px;
+	 border-bottom: 1px solid #fff;
+    line-height: 40px;
+    font-size: 15px;
+    padding-right: 20px;
+    text-align: center;
+    background-color:  #eee;
+}
+.MENUSHOW li:hover{
+	background-color: #000;
+	color: #fff;
+}
+.MENUSHOW li:nth-child(4){
+	display: none;
+}
+
+.MENUSHOW{
+	 /*隱藏選單開始*/
+    max-height: 0px;
+    overflow: hidden;
+    /*隱藏選單開始*/
+    transition:1.3s;
+    position: fixed;
+    z-index: 1000px;
+    top: 30px;
+    left: 0;
+    right: 0;
+	
+}
+
+.MENUSHOW a{
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	background-color: #eee;
+}
+.MENUSHOW a:hover {
+	text-decoration: none;
+	
+}
+
+.showmenu{
+ display: block;
+ width: 100%;
+ height: 60px;
+ background-color: #fff;
+ float: none;
+ padding-left: 20px;
+ padding-top:20px;
+position: fixed;
+z-index: 10000px;
+color: #000;
+}
+
+.menu-show .MENUSHOW{
+ max-height: 300px
+
+ }
+
+
+
+
+/*漢堡條*/
+#BOX1{
+	display: block;
+	width: 100%;
+	padding-top: 50px;
+	margin-left: 0;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 0px;
+	
+}
+#BOX1 ul{
+	display: block;
+	width: 100%;
+	margin-left: 0px;
+	text-align: center;
+
+
+}
+#BOX1 h1{
+	display: block;
+	width: 80%;
+	text-align: left;
+	border-bottom: 2px solid #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 2em;
+	margin-left: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+#BOX1 li{
+	display: block;
+	width: 90%;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+#BOX1 a:hover{
+	opacity: 0.7;
+}
+
+#BOX2{
+	display: block;
+	width: 100%;
+	padding-top: 30px;
+	margin-left: 0px;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 30px;
+}
+#BOX2 ul{
+	display: block;
+	width: 100%;
+	margin-left: 0px;
+	text-align: center;
+
+}
+#BOX2 h1{
+	display: block;
+	width: 200px;
+	text-align: left;
+	border-bottom: 2px solid #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 2em;
+	margin-left: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+#BOX2 li{
+	display: inline-block;
+	width: 43%;
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 3px;
+	margin-right: 5px;
+	
+}
+#BOX2 a:hover{
+	opacity: 0.7;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
